@@ -92,6 +92,7 @@ a:hover {
     color: #595959;
 }
 
+/* projects */
 .projects h3 {
     font-weight: 700;
     font-size: 22px;
@@ -121,6 +122,74 @@ a:hover {
     line-height: 171%;
     color: #595959;
 
+}
+
+/* experience */
+.experience,
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.experience h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 123%;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.position {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.company_name {
+    color: #6d9bf5;
+}
+
+.term {
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 125%;
+    color: #a8a8a8;
+    margin-bottom: 8px;
+}
+
+.partition {
+    color: #000;
+}
+
+.duties {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+}
+
+/* education */
+.branch {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.education h3 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.education h5 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
 }
 
 /* sidebar */
