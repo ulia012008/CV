@@ -1,6 +1,15 @@
-body {}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f6f6fa;
+    padding: 40px;
 
+}
 
 img {
     display: block;
@@ -8,17 +17,156 @@ img {
     height: auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
 ul {
-    list-style: none;
-    padding: 0;
+    display: block;
+    margin: 0;
+    padding-left: 18px;
+}
+
+ul li::marker {
+    font-size: 10px;
 }
 
 a {
     text-decoration: none;
+    font-weight: 400;
+
 }
 
 a:hover {
     text-decoration: underline;
+    color: blue;
 }
 
-.left_side {}
+/* wrapper */
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* content */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 88px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+/* content info */
+.info h2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 121%;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.info h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 122%;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.info p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+}
+
+.projects h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 123%;
+    color: #000;
+}
+
+.projects ol {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    color: #000;
+    padding-inline-start: 18px;
+}
+
+.projects a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #005fff;
+    padding-left: 14px;
+}
+
+.project_link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+
+}
+
+/* sidebar */
+aside {
+    background-color: #e0ebfe;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    width: 370px;
+    color: #161d2a;
+}
+
+.contacts {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.skills {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.contact_list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    list-style: none;
+    padding: 0;
+}
+
+.contact_list a {
+    color: #161d2a;
+}
+
+.sidebar_list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+}

@@ -3,15 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Effective Solutions for Your Business" />
     <title>CV Yuliia Jaworska</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <!-- wrapper -->
-    <div class="resume">
+    <div class="wrapper">
 
         <!-- main content -->
         <div class="content">
@@ -25,23 +26,24 @@
             </div>
             <div class="projects">
                 <h3>Projects</h3>
-
                 <ol>
                     <li>
                         <a href="https://ulia012008.github.io/goit-markup-hw-06/" target="_blank"
-                            rel="noopener noreferrer">https://ulia012008.github.io/goit-markup-hw-06/......................[
-                            HTML5, CSS3 ]</a>
+                            rel="noopener noreferrer">https://ulia012008.github.io/goit-markup-hw-06/<span
+                                class="project_link">......................[
+                                HTML5, CSS3 ]</span></a>
                     </li>
                     <li>
                         <a href="https://ulia012008.github.io/gous/" target="_blank"
-                            rel="noopener noreferrer">https://ulia012008.github.io/gous/
-                            .............................................[
-                            JavaScript
-                            ]</a>
+                            rel="noopener noreferrer">https://ulia012008.github.io/gous/<span class="project_link">
+                                ........................................................[
+                                JavaScript
+                                ]</span></a>
                     </li>
                     <li><a href="https://savranin-denis.github.io/project-group-12-fix/" target="_blank"
-                            rel="noopener noreferrer">
-                            https://savranin-denis.github.io/project-group-12-fix/...............[ React.js, Node.js ]
+                            rel="noopener noreferrer">https://savranin-denis.github.io/project-group-12-fix/<span
+                                class="project_link">..............[
+                                React.js, Node.js ]</span></a>
                     </li>
                 </ol>
 
@@ -133,43 +135,48 @@
 
         <!-- sidebar -->
         <aside>
-
             <img src="./images/photo.jpg" alt="profile photo" width="370" height="370" class="profile-photo" />
             <!-- contacts -->
-            <div>
-                <h3 class="header2">Contact Information:</h3>
-                <ul>
-                    <li>Phone: <a href="tel:+48798761048">+48 798 761 048</a></li>
-                    <li>Email: <a href="mailto:ulia012008@gmail.com" target="_blank">ulia012008@gmail.com</a></li>
-                    <li>GitHub: <a href="https://github.com/ulia012008" target="_blank">ulia012008</a></li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/julia-jaworska-5370b22a5/" target="_blank">Julia
-                            Jaworska</a></li>
-                </ul>
+            <div class="sidebar">
+                <div>
+                    <h3 class="contacts">Contacts</h3>
+                    <ul class="contact_list">
+                        <li>Phone: <a href="tel:+48798761048">+48 798 761 048</a></li>
+                        <li>Email: <a href="mailto:ulia012008@gmail.com" target="_blank">ulia012008@gmail.com</a></li>
+                        <li>GitHub: <a href="https://github.com/ulia012008" target="_blank">ulia012008</a></li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/julia-jaworska-5370b22a5/"
+                                target="_blank">Julia
+                                Jaworska</a></li>
+                    </ul>
+                </div>
+                <!-- Tech Skills -->
+                <div>
+                    <h3 class="skills">Tech Skills</h3>
+                    <ul class="sidebar_list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>GIT</li>
+                        <li>FIGMA</li>
+                        <li>WebPack</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <!-- Soft Skills -->
+                <div>
+                    <h3 class="skills">Soft Skills</h3>
+                    <ul>
+                        <li>Scrum</li>
+                        <li>Agile</li>
+                        <li>GTD</li>
+                        <li>Teamwork</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h2>Tech Skills</h2>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>GIT</li>
-                    <li>FIGMA</li>
-                    <li>WebPack</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Soft Skills</h2>
-                <ul>
-                    <li>Scrum</li>
-                    <li>Agile</li>
-                    <li>GTD</li>
-                    <li>Teamwork</li>
-                </ul>
-            </div>
+
+        </aside>
     </div>
-    </aside>
 </body>
 
 </html>
